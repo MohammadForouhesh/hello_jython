@@ -38,7 +38,7 @@ class GridBagLayoutDemo(java.lang.Runnable):
         print '     ipady:', c.ipady
 
         for name in '1,2,3 being the third number'.split(','):
-            container.add(JButton(name))
+            container.add(JButton(name, font=("Comic Sans MS", 30, 30)))
 
     def buttonPress(self, event):
         print event

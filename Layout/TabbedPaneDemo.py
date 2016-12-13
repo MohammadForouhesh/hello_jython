@@ -26,23 +26,23 @@ class TabbedPaneDemo(java.lang.Runnable):
         tab1.add(
             JLabel(
                 'The quick brown fox jumped over the lazy dog.'
-                , font=("Vivaldi", 30, 30)
+                , font=("Comic Sans MS", 30, 30)
             )
         )
 
         tab2 = JPanel()
         for name in 'A,B,C'.split(','):
-            tab2.add(JButton(name, font=("Vivaldi", 30, 30)))
+            tab2.add(JButton(name, font=("Comic Sans MS", 30, 30)))
 
         tab3 = JPanel()
         tab3.add(
             JLabel(
                 'Now is the time for all good men to come to...'
-                , font=("Vivaldi", 30, 30)
+                , font=("Comic Sans MS", 30, 30)
             )
         )
 
-        tabs = JTabbedPane(font=("Vivaldi", 30, 30))
+        tabs = JTabbedPane(font=("Comic Sans MS", 30, 30))
         tabs.addTab('Yek', tab1)
         tabs.addTab('Do', tab2)
         tabs.addTab('Se', tab3)
